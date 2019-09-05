@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: #360836; 
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    
+}
+.navbar ul{
+    list-style: none;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar ul li a{
+    color: #ff0048;
+    text-decoration: none; 
+    margin-left: 15px;
+    font-size: 20px;
+}
+.navbar ul li .active{
+    color: #fff;
+}
+.web{
+    width: 100%;
+    height: 600px;
+    background: url(../images/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;  
+}
+.web .folk{
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.web .folk h2{
+font-size: 50px;
+color: #fff;
+text-transform: uppercase;
+}
+.web .folk p{
+    letter-spacing: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.web .dream p{
+    color: #fff;
+    font-size: 25px;
+}
+.web .work{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    left: 39%;
+    background: #ff0048;
+    padding: 15px;
+    width: 250px;
+    font-size: 20px;
+}
+.web .work:after {
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    top:40px;
+    display: inline-block;
+    left: -70px;
+}
+.images{
+    width: 100%;
+}
+.images .img{
+    width: 25%;
+    height: 252px;
+    float: left;
+    background: url(../images/image_1.jpg);
+}
+.images .img .over{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+.images .img:hover .over{
+    opacity:1;
+}
+.images .i_1{background: url(../images/image_2.jpg)}
+.images .i_2{background: url(../images/image_3.jpg)}
+.images .i_3{background: url(../images/image_4.jpg)}
+.images .i_4{background: url(../images/image_5.jpg)}
+.images .i_5{background: url(../images/image_6.jpg)}
+.images .i_6{background: url(../images/image_7.jpg)}
+.images .i_7{background: url(../images/image_8.jpg)}
+.images .i_8{background: url(../images/image_9.jpg)}
+.images .i_9{background: url(../images/image_10.jpg)}
+.images .i_10{background: url(../images/image_11.jpg)}
+.images .i_11{background: url(../images/image_12.jpg)}
+
+.clear{clear: both;}
+.meet{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    background: #f5f5f5
+}
+.meet .head{
+    position: absolute;
+    top: 0;
+    background: #ff0048;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+}
+.meet .head:after{
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    top:40px;
+    display: inline-block;
+    left: -140px;
+}
+.meet h2{
+    margin: 0;
+    padding: 8%;
+    color: #ff0048;
+    font-size: 40px;
+}
+.meet .meetimage{
+   display: inline-block;
+    margin-top: 20px;
+}
+.meet .meetimage:hover{
+    opacity: 0.5;
+}
+.meet .meetimage h3{
+    color: #ff0048;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+.meet button{
+    width: 150px;
+    background: black;
+    border:0;
+    color:white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px
+}
+/*end*/
+.end{
+    width: 100%;
+    height: auto;
+    background: url('../images/Cover_2.jpg');
+    text-align: center;
+    background-size: cover;
+    padding-top: 7%
+}
+.end .content{
+    width: 500px;
+    display: inline-block;
+    color: white;
+    margin-top: 8%;
+    font-size: 15px;
+}
+.end .content h2{
+    margin: 0;
+    padding: 0;
+}
+.end .cercle1 {
+  display: inline-block;
+  width: 40%;
+  margin-top: 8%;
+}
+.end .cercle1 span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: white;
+    border-radius: 30px;
+}
+.end button{
+    margin-top: 8%;
+    background: #fff;
+    border: 0;
+    width: 150px;
+    padding: 15px;
+    color: #000;
+    cursor: pointer;
+}
+.end .bol{
+    text-align: center;
+    margin-top: 8%
+}
+.end .bol span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: white;
+}
+.end .bol span:hover{
+    background: #ff0048;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: #dedddd;
+    line-height: 80px;
+    font-size: 25px;
+}
+/************Contact .html******/
+.contact{
+    width: 100%;
+    height: 650px;
+    background: url('../images/coverPage2.png');
+    background-size: cover;
+    text-align: center;
+    padding-top: 5%
+}
+.contact h2{
+    font-size: 40px;
+    font-style: italic;
+}
+.contact p{
+    font-size: 25px;
+}
+.contact .form{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    
+}
+.contact .form h2{
+    color: #df1a5a;
+}
+.contact .form input[type=text], textarea{
+    display: block;
+    width: 100%;
+    height: 35px;
+    border:0;
+    margin-bottom: 10px;
+    background: #df1a5a;
+    color: #fff;
+    padding-left: 10px
+}
+textarea{
+    height: 200px
+}
+.contact .form input[type=submit]{
+    float: right;
+    border: 0;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer
+}
+/* Become */ 
+.become{
+    width: 100%;
+    height: 350px;
+    background: #f5f5f5;
+    text-align: center;
+    padding-top: 2%   
+}
+.become h2{
+    margin: 0;
+    color: #df1a5a;
+    font-size: 35px;
+}
+.become p{
+    font-size: 18px
+}
+/***book online***/
+.contact .cover{
+    width: 900px;
+    height: 400px;
+    background: #fff;
+    margin: auto;
+    padding-top: 5%
+}
+.contact .cover .left {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    height: 252px;
+}
+.contact .cover .left img {
+    width: 100%; 
+}
+.contact .cover .right {
+    width: 45%;
+    float: right;
+    background: #eee;
+    margin-right: 5%;
+    height: 250px;
+    padding-top: 6%;
+}
+.contact .cover .right button {
+    background: #000;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    cursor: pointer
+}
